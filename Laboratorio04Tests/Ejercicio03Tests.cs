@@ -17,7 +17,7 @@ namespace Laboratorio04Tests
         [DataRow("99", "99", "198")]
         [DataRow("999999999999", "88888888888888", "89888888888887")]
         [DataRow("0", "999999999999999999999999", "999999999999999999999999")]
-        [DataRow("18446744073709551616", "18446744073709551616", "18446744073709551616")]
+        [DataRow("18446744073709551616", "18446744073709551616", "36893488147419103232")]
         public void SumarTest(string num1, string num2, string expectedResult)
         {
             var ejercicio03 = new Ejercicio03();
