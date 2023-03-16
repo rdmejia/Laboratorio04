@@ -8,7 +8,7 @@ namespace Laboratorio04
 {
     public class Ejercicio05
     {
-        public int[] CalcularBilletes(int cantidad, int[][] billetes)
+        public int[] CalcularBilletes(int cantidad, int[,] billetes)
         {
             return new int[] {};
         }
