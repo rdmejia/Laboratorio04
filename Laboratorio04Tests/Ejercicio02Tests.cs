@@ -7,7 +7,7 @@
         [DataRow(new int[] {4, 8, 0, 6, 2}, 20.0, 4.0)]
         [DataRow(new int[] { -1, 0, 1 }, 0.0, 0.0)]
         [DataRow(new int[] { 100 }, 100.0, 100.0)]
-        [DataRow(new int[] { }, 0.0, 0.0)]
+        [DataRow(new int[] { }, 0.0, double.NaN)]
         [DataRow(new int[] { -1, -2, -3, -4, -5, -6, -7, -8, -9, -10 }, -55.0, -5.5)]
         [DataRow(new int[] { int.MaxValue, int.MinValue }, -1.0, -0.5)]
         public void TestSumaYPromedio(int[] nums, double suma, double promedio)
