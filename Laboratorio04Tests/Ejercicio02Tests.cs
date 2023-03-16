@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Laboratorio04;
-
-namespace Laboratorio04Tests
+﻿namespace Laboratorio04Tests
 {
     [TestClass]
-    internal class Ejercicio02Tests
+    public class Ejercicio02Tests
     {
         [TestMethod]
         [DataRow(new int[] {4, 8, 0, 6, 2}, 20.0, 4.0)]

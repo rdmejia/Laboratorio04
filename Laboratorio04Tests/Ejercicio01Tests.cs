@@ -1,8 +1,6 @@
 
 namespace Laboratorio04Tests
 {
-    using Laboratorio04;
-
     [TestClass]
     public class Ejercicio01Tests
     {
@@ -24,6 +22,7 @@ namespace Laboratorio04Tests
         public void TestSumar3() 
         {
             int result = Ejercicio01.Sumar(-1, -1);
+
             Assert.AreEqual(-2, result); 
         }
     }
