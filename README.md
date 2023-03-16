@@ -4,29 +4,29 @@
   * [Clonando el codigo](#clonando-el-codigo)
   * [Ejercicio 1](#ejercicio-1)
 
-## Clonando el codigo
+## Clonando el código
 
-1. Para iniciar el laboratorio, debe crear un Fork del repositorio:
+1. Para iniciar el laboratorio, debe crear un *Fork* del repositorio:
 
 ![fork button](images/fork.png)
 
-2. Clone el nuevo repositorio en su computadora y abralo en Visual Studio.
+2. Clone el nuevo repositorio en su computadora y ábralo en Visual Studio.
 
-3. Abra el archivo **Program.cs** que se encuentra en el proyecto de **Laboratorio04** y modifiquelo para que imprima su nombre, carnet y seccion:
+3. Abra el archivo **Program.cs** que se encuentra en el proyecto de **Laboratorio04** y modifíquelo para que imprima su nombre, carnet y sección:
 
 ![Program](images/Program.png)
 
-| ![Ejemplo de informacion del estudiante](images/NameExample.png) |
+| ![Ejemplo de información del estudiante](images/NameExample.png) |
 |:--:|
-| *Ejemplo 1: Imprimiendo informacion del estudiante* |
+| *Ejemplo 0.1: Imprimiendo información del estudiante* |
 
 ## Ejercicio 1
 
-1. En el menu de Visual Studio, en la seccion de Tests, seleccione *Run All Tests*
+1. En el menú de Visual Studio, en la seccion de Tests, seleccione *Run All Tests*
 
 ![Ejecutar Pruebas](images/RunTests.png)
 
-2. La mayoria de las pruebas deberian fallar.
+2. La mayoría de las pruebas deberían fallar.
 
 ![Pruebas fallidas](images/FailedTests.png)
 
@@ -34,7 +34,7 @@
 
 ![Ejercicio 01](images/Ejercicio01.png)
 
-4. Cambie el valor de retorno de la funcion **Sumar** para que retorne el valor de la suma entre las variables **a** y **b**
+4. Cambie el valor de retorno de la función **Sumar** para que retorne el valor de la suma entre las variables **a** y **b**
 
 ![Funcion Sumar](images/SumFunction.png)
 
@@ -42,4 +42,59 @@
 
 ![Pruebas exitosas](images/SuccessfulTests.png)
 
-6. Agregue los cambios, haga commit y haga `git push` a su repositorio
+6. Agregue los cambios, haga commit y luego `git push` a su repositorio en GitHub
+
+7. Si siguió los pasos correctamente, en su repositorio de GitHub, podrá ver los resultados de la ejecucion de sus pruebas remotamente
+
+![GitHub Actions](images/ActionsButton.png)
+
+## Ejercicio 02
+
+Dado un arreglo de números enteros, calcule la suma total y el promedio de todos los números en ese arreglo.
+
+- La función Calcular debe retornar un arreglo con la suma total en la posición 0 y el promedio en la posición 1.
+
+### Ejemplo 2.1
+
+    nums = [4, 8, 0, 6, 2]
+    resultado = [20.0, 4.0]
+___
+
+### Ejemplo 2.2
+
+    nums = [-1, 0, 1]
+    resultado = [0.0, 0.0]
+___
+
+### Ejemplo 2.3
+
+    nums = [100]
+    resultado = [100.0, 100.0]
+___
+
+## Ejercicio 03
+
+Dados dos strings que representan números enteros mayores o iguales a cero, **num1** y **num2**, calcule la suma de esos dos números.
+
+- Si cualquiera de los dos números es mayor que cero, no habrán ceros previos a cualquier dígito (ejemplo: "07" no será una entrada válida)
+
+### Ejemplo 3.1
+
+    num1 = "1"
+    num2 = "5"
+    resultado = "6"
+___
+
+### Ejemplo 3.2
+
+    num1 = "278"
+    num2 = "19"
+    resultado = "297"
+___
+
+### Ejemplo 3.3
+
+    num1 = "0"
+    num2 = "999999999999999999999999"
+    resultado = "999999999999999999999999"
+___
