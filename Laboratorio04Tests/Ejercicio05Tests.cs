@@ -17,7 +17,7 @@ namespace Laboratorio04Tests
 
             for (int i = 0; i < resultado.Length; i++)
             {
-                Assert.AreEqual(resultado[i], resultadoActual[i], $"El resultado ${i} no es correcto");
+                Assert.AreEqual(resultado[i], resultadoActual[i], $"El resultado {i} no es correcto");
             }
         }
 
