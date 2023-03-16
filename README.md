@@ -12,7 +12,7 @@
 
 2. Clone el nuevo repositorio en su computadora y abralo en Visual Studio.
 
-3. Abra el archivo **Program.cs** que se encuentra en el proyecto de **Lab oratorio04** y modifiquelo para que imprima su nombre, carnet y seccion:
+3. Abra el archivo **Program.cs** que se encuentra en el proyecto de **Laboratorio04** y modifiquelo para que imprima su nombre, carnet y seccion:
 
 ![Program](images/Program.png)
 
