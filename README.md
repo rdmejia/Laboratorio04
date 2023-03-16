@@ -1,8 +1,16 @@
 # Laboratorio 04
 
 - [Laboratorio 04](#laboratorio-04)
-  * [Clonando el codigo](#clonando-el-codigo)
-  * [Ejercicio 1](#ejercicio-1)
+  - [Clonando el código](#clonando-el-c-digo)
+  - [Ejercicio 1](#ejercicio-1)
+  - [Ejercicio 02](#ejercicio-02)
+    - [Ejemplo 2.1](#ejemplo-21)
+    - [Ejemplo 2.2](#ejemplo-22)
+    - [Ejemplo 2.3](#ejemplo-23)
+  - [Ejercicio 03](#ejercicio-03)
+    - [Ejemplo 3.1](#ejemplo-31)
+    - [Ejemplo 3.2](#ejemplo-32)
+    - [Ejemplo 3.3](#ejemplo-33)
 
 ## Clonando el código
 
